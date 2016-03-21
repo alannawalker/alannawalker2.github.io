@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+
+body{
+	color: #53493f;
+	font-family:arial, helvetica, sans-serif;
+	font-size:16px; /*1em = 16px*/
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Pathway Gothic One","Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	line-height: 2em;
+	letter-spacing: .05em;
+}
+
+p{
+	line-height: 1.5em;
+}
+
+#headline{
+	padding:0 200px;
+}
+
+#slogan{
+	font-style: italic;
+	font-size: 14px;
+}
+
+#logo {
+	height: auto;
+	max-width:10em;
+	float:left;
+}
+
+.navlinks{
+
+}
+
+#donate-button {
+	float:right;
+	border: 0px none;
+}
+
+.tiles{
+	width:30em;
+	margin:2em auto;
+	background-color:#4892CE;
+	color:#fff;
+}
+
+.tiles img {
+	width:100%;
+}
+
+.tiles div {
+	background-color: #ff1e1e
+	color: #fff;
+	padding: 0.5em 1em;
+}
+
+.mission {
+	width:30em;
+	margin:2em auto;
+	background-color:#cccccc;
+}
+.mission img {
+	width:50%;
+	float:left;
+}
